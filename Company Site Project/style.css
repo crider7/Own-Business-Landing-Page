@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4f4f4f;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.header h1 {
+    font-size: 5rem;
+    padding-left: 1rem;
+    font-weight: bold;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a {
+    font-size: 2rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover {
+    color: blue;
+}
+
+/* landing */
+#landing {
+    width: 100%;
+    height: 75rem;
+    background-image: url('https://media.wired.com/photos/61f48f02d0e55ccbebd52d15/master/pass/Gear-Rant-Game-Family-Plans-1334436001.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#landing h2 {
+    color: white;
+    font-size: 3rem;
+    margin-right: 5rem;
+}
+
+/* content */
+#content {
+    width: 100%;
+    height: auto;
+    background-color: lightgray;
+}
+
+.content-text {
+    text-align: center;
+}
+
+.content-text h2{
+    font-size: 4rem;
+    padding: 2rem 0 1rem 0;
+}
+
+.content-text p {
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.content-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.content-option {
+    padding: 2rem;
+}
+
+.content-option p {
+    font-size: 2rem;
+}
+
+/* Team */
+#team {
+    width: 100%;
+    height: auto;
+    background-color: antiquewhite;
+    padding-bottom: 3rem;
+}
+
+.team-text {
+    text-align: center;
+}
+
+.team-text h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.team-one{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.team-image-container {
+    display: block;
+    max-width: 10rem;
+}
+
+.team-image-container img {
+    display: block;
+    max-width: 10rem;
+}
+
+#contact{
+    max-width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4f4f4f;
+    color: white;
+}
+
+#contact p{
+    font-size: 1.5rem;
+    padding: 2rem;
+}
